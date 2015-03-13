@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"author": "eu",
 	"dependencies": {
-		"express": "latest"
+		"express": "latest",
+		"socket.io": "latest"
 	}
 }
