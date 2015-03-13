@@ -1,0 +1,8 @@
+{
+	"name": "WithoutName",
+	"version": "0.0.0",
+	"author": "eu",
+	"dependencies": {
+		"express": "latest"
+	}
+}
