@@ -3,7 +3,11 @@ var app = require('express')();
 var fs = require('fs');
 
 app.get('/', function(req, res) {
-	res.send('Hello 3002');
+	fs.readFile('index.html', {encoding: 'utf8'}, function(err, data) {
+		if(err) throw err;
+
+		res.send(data);
+	});
 });
 
 app.listen(expressPort);

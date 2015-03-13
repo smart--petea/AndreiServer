@@ -4,6 +4,8 @@
 	"author": "eu",
 	"dependencies": {
 		"express": "latest",
-		"socket.io": "latest"
+		"socket.io": "latest",
+		"request": "latest",
+		"body-parser": "latest"
 	}
 }
